@@ -43,7 +43,6 @@ func main() {
 
 	logger.Info("app starting")
 
-	// Корневой контекст приложения — отменяется при shutdown. Можно передавать в фоновые горутины (очередь и т.п.)
 	appCtx, appCancel := context.WithCancel(context.Background())
 	defer appCancel()
 
