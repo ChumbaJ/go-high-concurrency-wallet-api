@@ -1,0 +1,12 @@
+.git
+.gitignore
+*.log
+app.log
+migrate.log
+.env
+.DS_Store
+*.md
+.dockerignore
+Dockerfile
+docker-compose.yaml
+load-test.js
