@@ -34,6 +34,8 @@ PostgreSQL + миграции + приложение. API доступен на 
 go run ./cmd
 ```
 
+**Готово.** API доступен на `http://localhost:8080`.
+
 ---
 
 ## API
